@@ -97,12 +97,12 @@ namespace NHibernate.Tuple.Entity
 			if (optimizer == null)
 			{
 				log.Debug("Create Instantiator without optimizer for:" + persistentClass.MappedClass.FullName);
-				return new PocoInstantiator(persistentClass, null);
+				return new PocoInstantiator(persistentClass, null, ProxyFactory, lazyPropertyNames.Count > 0);
 			}
 			else
 			{
 				log.Debug("Create Instantiator using optimizer for:" + persistentClass.MappedClass.FullName);
-				return new PocoInstantiator(persistentClass, optimizer.InstantiationOptimizer);
+				return new PocoInstantiator(persistentClass, optimizer.InstantiationOptimizer, ProxyFactory, lazyPropertyNames.Count > 0);
 			}
 		}
 

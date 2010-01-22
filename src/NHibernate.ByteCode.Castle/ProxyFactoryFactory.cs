@@ -1,4 +1,7 @@
+using System;
+using Castle.DynamicProxy;
 using NHibernate.Bytecode;
+using NHibernate.Intercept;
 using NHibernate.Proxy;
 
 namespace NHibernate.ByteCode.Castle

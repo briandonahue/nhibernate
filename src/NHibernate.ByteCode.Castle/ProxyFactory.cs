@@ -1,7 +1,9 @@
 using System;
+using System.Collections.Generic;
 using Castle.DynamicProxy;
 using log4net;
 using NHibernate.Engine;
+using NHibernate.Intercept;
 using NHibernate.Proxy;
 
 namespace NHibernate.ByteCode.Castle
@@ -42,6 +44,11 @@ namespace NHibernate.ByteCode.Castle
 				log.Error("Creating a proxy instance failed", e);
 				throw new HibernateException("Creating a proxy instance failed", e);
 			}
+		}
+
+		public override object GetLazyPropertyInterceptionProxy()
+		{
+			return ProxyGenerator.CreateClassProxy(PersistentClass, new[] { typeof(IFieldInterceptorAccessor) }, new LazyPropertyInterceptor());
 		}
 	}
 }

@@ -22,6 +22,11 @@ namespace NHibernate.Cfg.MappingSchema
 			get { return optimisticlock; }
 		}
 
+		public bool IsLazy
+		{
+			get { return lazy != HbmCollectionLazy.False; }
+		}
+
 		#endregion
 
 		#region Implementation of IReferencePropertyMapping

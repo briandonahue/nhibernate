@@ -48,5 +48,7 @@ namespace NHibernate.Proxy
 		/// <returns>The generated proxy.</returns>
 		/// <exception cref="HibernateException">Indicates problems generating requested proxy.</exception>
 		INHibernateProxy GetProxy(object id, ISessionImplementor session);
+
+		object GetLazyPropertyInterceptionProxy();
 	}
 }

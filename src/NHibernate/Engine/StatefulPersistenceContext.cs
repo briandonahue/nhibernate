@@ -695,7 +695,7 @@ namespace NHibernate.Engine
 			{
 				if (ProxyWarnLog.IsWarnEnabled)
 				{
-					ProxyWarnLog.Warn("Narrowing proxy to " + persister.GetConcreteProxyClass(session.EntityMode) + " - this operation breaks ==");
+					ProxyWarnLog.Warn("Narrowing proxy to " + persister.GetConcreteProxyClass(session.EntityMode) + " - this operation breaks the == operator");
 				}
 
 				if (obj != null)

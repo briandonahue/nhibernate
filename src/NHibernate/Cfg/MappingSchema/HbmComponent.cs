@@ -23,6 +23,11 @@ namespace NHibernate.Cfg.MappingSchema
 			get { return node; }
 		}
 
+		public bool IsLazy
+		{
+			get { return lazy; }
+		}
+
 		public string Name
 		{
 			get { return name; }

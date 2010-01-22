@@ -18,6 +18,11 @@ namespace NHibernate.Cfg.MappingSchema
 			get { return null; }
 		}
 
+		public bool IsLazy
+		{
+			get { return false; }
+		}
+
 		public string EmbeddedNode
 		{
 			get { return node; }

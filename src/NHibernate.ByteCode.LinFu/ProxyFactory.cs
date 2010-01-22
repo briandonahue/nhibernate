@@ -31,6 +31,11 @@ namespace NHibernate.ByteCode.LinFu
 			}
 		}
 
+		public override object GetLazyPropertyInterceptionProxy()
+		{
+			throw new NotSupportedException("Could not create lazy property proxy instance for :" + EntityName);
+		}
+
 		#endregion
 	}
 }

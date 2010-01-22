@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="LazyInitializer.cs" />
+    <Compile Include="LazyPropertyInterceptor.cs" />
     <Compile Include="ProxyFactory.cs" />
     <Compile Include="ProxyFactoryFactory.cs" />
   </ItemGroup>

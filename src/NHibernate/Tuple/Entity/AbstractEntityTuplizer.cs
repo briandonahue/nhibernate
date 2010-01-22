@@ -15,7 +15,7 @@ namespace NHibernate.Tuple.Entity
 	public abstract class AbstractEntityTuplizer : IEntityTuplizer
 	{
 		private static readonly ILog log = LogManager.GetLogger(typeof(AbstractEntityTuplizer));
-		private readonly EntityMetamodel entityMetamodel;
+		protected readonly EntityMetamodel entityMetamodel;
 		private readonly IGetter idGetter;
 		private readonly ISetter idSetter;
 

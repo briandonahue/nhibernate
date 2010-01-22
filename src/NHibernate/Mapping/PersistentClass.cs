@@ -113,6 +113,13 @@ namespace NHibernate.Mapping
 				}
 				return mappedClass;
 			}
+			set
+			{
+				if(value == null)
+					throw new ArgumentNullException("value");
+
+				mappedClass = value;
+			}
 		}
 
 		/// <summary>

@@ -22,6 +22,11 @@ namespace NHibernate.Cfg.MappingSchema
 			get { return optimisticlock; }
 		}
 
+		public bool IsLazy
+		{
+			get { return lazy; }
+		}
+
 		#endregion
 
 		#region Overrides of AbstractDecoratable
