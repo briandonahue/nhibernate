@@ -1,0 +1,12 @@
+/bin
+/obj
+/.#*
+/*.user
+/*.xsx
+/AssemblyInfo.cs
+/[Bb]in
+/[Dd]ebug
+/[Rr]elease
+/*.aps
+/*.eto
+/NHibernate.DomainModel.pidb
