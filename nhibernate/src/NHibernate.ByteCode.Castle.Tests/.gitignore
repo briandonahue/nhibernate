@@ -1,0 +1,15 @@
+/*.aps
+/*.eto
+/*.user
+/*.xml
+/*.xsx
+/*resharper*
+/.#*
+/AssemblyInfo.cs
+/[Bb]in
+/[Dd]ebug
+/[Rr]elease
+/bin
+/hibernate.cfg.xml
+/obj
+/*[Rr]esparper*
