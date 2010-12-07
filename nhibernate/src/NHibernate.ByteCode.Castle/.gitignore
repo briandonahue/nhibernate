@@ -1,0 +1,12 @@
+/obj
+/.#*
+/*.user
+/*.xsx
+/AssemblyInfo.cs
+/*.aps
+/*.eto
+/[Bb]in
+/[Dd]ebug
+/[Rr]elease
+/*resharper*
+/*[Rr]esparper*
