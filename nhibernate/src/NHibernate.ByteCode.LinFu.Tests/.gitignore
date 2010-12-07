@@ -1,0 +1,15 @@
+/obj
+/.#*
+/*.user
+/*.xsx
+/AssemblyInfo.cs
+/hibernate.cfg.xml
+/*.aps
+/*.eto
+/[Bb]in
+/[Dd]ebug
+/[Rr]elease
+/*resharper*
+/*.xml
+/NHibernate.ByteCode.LinFu.Tests.pidb
+/*[Rr]esparper*
