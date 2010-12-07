@@ -1,0 +1,10 @@
+/bin
+/obj
+/AssemblyInfo.cs
+/[Bb]in
+/[Dd]ebug
+/[Rr]elease
+/*.user
+/*.aps
+/*.eto
+/*.xml

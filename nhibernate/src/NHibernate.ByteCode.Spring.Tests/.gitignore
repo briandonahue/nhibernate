@@ -1,0 +1,13 @@
+/obj
+/.#*
+/*.user
+/*.xsx
+/*.aps
+/*.eto
+/[Bb]in
+/[Dd]ebug
+/[Rr]elease
+/*resharper*
+/AssemblyInfo.cs
+/hibernate.cfg.xml
+/*.xml
